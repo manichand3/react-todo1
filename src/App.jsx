@@ -33,6 +33,7 @@ const App = () => {
     });
     setList(updatedList);
   }
+  console.assert.log(list);
 
   function handleFliter(fun) {
     let updatedList;
